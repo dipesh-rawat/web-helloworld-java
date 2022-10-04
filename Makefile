@@ -1,6 +1,6 @@
 # Extremely simple HTTP server that responds on port 8000 with a hello message.
 
-DOCKER_HUB_ID:=ibmosquito
+DOCKER_HUB_ID?=ibmosquito
 SERVICE_NAME:="web-hello-java"
 PATTERN_NAME:="pattern-web-helloworld-java"
 SERVICE_VERSION:="1.0.0"
